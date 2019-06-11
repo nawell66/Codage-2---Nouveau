@@ -1,4 +1,4 @@
-Style.css
+
 /* style.css */
 
 body{
@@ -9,11 +9,16 @@ body{
   margin:0;
 }
 
+nav li {
+  margin: 10px;
+  display:inline;
+}
 nav{
   display:inline;
   font-size: 1em;
   font-family: 'Source Sans Pro', sans-serif;
 } 
+
 
 h1{
   font-family: 'Roboto', sans-serif;
@@ -46,6 +51,8 @@ a:hover {
   color: rgb(225, 0, 152);
   font-size: 35px;
   font-family: 'Pacifico', cursive;
+  float:left;
+  margin-left:50px;
 }
 
 /* Mis en forme de la baseline */
@@ -69,11 +76,21 @@ a:hover {
   font-weight: lighter;
   text-decoration: none;
 }
+#baseline a:hover {
+  position: relative;
+  top:1px;
+}
  .feature {border: 10px solid green;margin: 15px;
 padding: 15px 0;
 text-align: center;
-width: 400px; background: blue;}
-  #apropos{border: 10px solid red;
+width: 400px; background: blue;
+}
+ 
+ #apropos{
+ border: 10px solid red;
   margin: 0 auto;
   width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
