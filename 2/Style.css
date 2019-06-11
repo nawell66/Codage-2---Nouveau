@@ -69,3 +69,11 @@ a:hover {
   font-weight: lighter;
   text-decoration: none;
 }
+ .feature {border: 10px solid green;margin: 15px;
+padding: 15px 0;
+text-align: center;
+width: 400px; background: blue;}
+  #apropos{border: 10px solid red;
+  margin: 0 auto;
+  width: 80%;
+}
