@@ -1,5 +1,8 @@
 
 /* style.css */
+.red {
+	color: red;
+}
 
 body{
   background: #fff;
@@ -94,3 +97,4 @@ width: 400px; background: blue;
   flex-wrap: wrap;
   justify-content: center;
 }
+
