@@ -112,3 +112,9 @@ a:hover {
  font-size: 50px;
 }
 
+function getUsername() {
+    //affiche une boite de dialogue 
+    var  user = prompt("Veuillez rentrez votre nom:", "");
+    // la fonction se termine en retournant le nom récupéré par la boite de dialogue
+    return user
+}
