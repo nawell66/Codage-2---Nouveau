@@ -83,10 +83,13 @@ a:hover {
   position: relative;
   top:1px;
 }
- .feature {border: 10px solid green;margin: 15px;
-padding: 15px 0;
-text-align: center;
-width: 400px; background: blue;
+ <.feature,.defi{
+  border: 1px solid #F2F2F2;
+  background: #FAFAFA;
+  margin: 15px;
+  padding: 15px 0;
+  text-align: center;
+  width: 400px;
 }
  
  #apropos{
@@ -96,5 +99,16 @@ width: 400px; background: blue;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+#welcome{
+  background-color: #41A3C0;
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+#welcome h4{
+ font-size: 50px;
 }
 
